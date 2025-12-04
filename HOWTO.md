@@ -35,12 +35,7 @@ Create the server directory:
 mkdir -p /home/abiotic/abioticserver
 
 Download the Windows server build:
-/usr/games/steamcmd \
-+@sSteamCmdForcePlatformType windows \
-+force_install_dir /home/abiotic/abioticserver \
-+login anonymous \
-+app_update 2857200 \
-+quit
+/usr/games/steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir /home/abiotic/abioticserver +login anonymous +app_update 2857200 +quit
 
 
 ## 5. Create runserver.sh
