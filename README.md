@@ -1,5 +1,15 @@
 # Abiotic-Linux-Server
-Running Abiotic Factor Dedicated Server on Pop_OS Using Wine + systemd
+This project demonstrates:
+1. Headless Linux service deployment
+2. SteamCMD Automation
+3. Wine-based server hosting
+4. Persistent save migration
+5. systemd service management
+6. Real-world uptime hardening
+
+This was built and is currently running on my own hardware.
+
+##Running Abiotic Factor Dedicated Server on Pop_OS Using Wine + systemd
 
 This project documents the deployment of a persistent, auto-starting dedicated game server for Abiotic Factor on Linux using:
 Pop!_OS (Ubuntu-Based)
