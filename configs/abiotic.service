@@ -1,0 +1,16 @@
+[Unit]
+Description=Abiotic Factor Dedicated Server
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=abiotic
+Group=abiotic
+WorkingDirectory=/home/abiotic/abioticserver/
+ExecStart=/usr/bin/env WINEDEBUG=-all /bin/bash /home/abiotic/abioticserver/AbioticFactor/Binaries/Win64/runserver.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
