@@ -87,6 +87,12 @@ This project demonstrates hands-on competency with:
 9. Persistent uptime configuration
 10. Resource monitoring under production load
 
+Lessons Learned
+1. systemd is dramatically more reliable than manual background processes
+2. Save-state migration requires ownership correctio nwhen changing service users
+3. UDP query traffic behaves very differently than TCP (NAT loopback issues)
+4. Disabling sleep at the OS target level is more reliable than GUI power settings
+5. Wine-based servers cna be production-stable with proper isolation
 
 Current Status
 1. Server is live
