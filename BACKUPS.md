@@ -52,7 +52,7 @@ The entire server installation is *not* backed up — only the data that actuall
 
 The backup runs automatically every night at **03:00 AM** using a system-wide cron job:
 
-```bash
+bash
 0 3 * * * /usr/local/bin/abiotic-backup.sh
 
  This means: \
